@@ -1,1 +1,31 @@
 *.msix filter=lfs diff=lfs merge=lfs -text
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+venv/
+.venv/
+
+# 环境变量 / 密钥
+.env
+.env.*
+
+# IDE
+.idea/
+.vscode/
+*.swp
+
+# 系统文件
+Thumbs.db
+Desktop.ini
+
+# 日志
+*.log
+logs/
+
+# 上传目录
+uploads/
+
+# 数据库文件
+*.db
+*.sqlite3
